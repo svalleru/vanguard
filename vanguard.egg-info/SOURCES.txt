@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+vanguard/__init__.py
+vanguard/models.py
+vanguard/settings.py
+vanguard/urls.py
+vanguard/users.py
+vanguard/utils.py
+vanguard/wsgi.py
+vanguard.egg-info/PKG-INFO
+vanguard.egg-info/SOURCES.txt
+vanguard.egg-info/dependency_links.txt
+vanguard.egg-info/requires.txt
+vanguard.egg-info/top_level.txt
