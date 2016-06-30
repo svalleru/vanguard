@@ -2,6 +2,8 @@ Vanguard is a simple API authentication library for Django REST Framework
 
 Quick start
 -----------
+0. Install `vanguard` using `pip`
+`pip install vanguard`
 
 1. Add "vanguard" to your INSTALLED_APPS setting like this::
 ```
