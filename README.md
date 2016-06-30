@@ -33,6 +33,10 @@ Logout [vanguard/logout]
 5. Use @validate_token as the inner most annotation for any API end point method
 you wanna authenticate
 ``` 
+from rest_framework.decorators import api_view, renderer_classes
+from rest_framework.renderers import JSONRenderer, BrowsableAPIRenderer, status
+from rest_framework.response import Response
+:
 from vanguard.utils import validate_token
 :
 .
@@ -44,4 +48,5 @@ def my_api(request):
     #authenticated user's email
     user_email=request.META['HTTP_TOKEN']
     :
+    return Response({'Authenticated User': request.META['HTTP_TOKEN']}, status=status.HTTP_200_OK)
 ```

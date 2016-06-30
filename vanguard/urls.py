@@ -18,8 +18,8 @@ from vanguard import users
 
 urlpatterns = [
     url(r'^/?$', users.user_signup),
-    url(r'^/signup/?$', users.user_signup),
-    url(r'^/login/?$', users.user_login),
-    url(r'^/forgotpassword/?$', users.forgot_password),
-    url(r'^/logout/?$', users.user_logout),
+    url(r'^signup/?$', users.user_signup),
+    url(r'^login/?$', users.user_login),
+    url(r'^forgotpassword/?$', users.forgot_password),
+    url(r'^logout/?$', users.user_logout),
 ]
